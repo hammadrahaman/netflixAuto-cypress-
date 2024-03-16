@@ -17,7 +17,7 @@ Cypress.Commands.add("asserProfileName", ()=>{
   cy.get('.MuiBox-root.css-1svqmvn')
   .children()
   .should('have.length', 4)
-  .eq(1) // Select the middle child (index 1, assuming 0-based indexing)
+  .eq(1) // Select the middle child (index 1, assuming 0-based indexing)...!
   .should('have.text', 'Children');
 })
 
